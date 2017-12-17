@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <br/><br/><br/><br/><br/>
+        <div align="center">
+            <h1 style="color:#1a1a1a" id="quote"></h1>
+        </div>
+
+        <script>
+            var quoteArray=["line 1",
+                            "line 2",
+                            "line 3",
+                            "line 4",
+                            "line 5",
+                            "line 6"];
+
+            var randomNumber=Math.floor((Math.random() * 6) + 1);
+            document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+        </script>
+    </body>
+</html>
