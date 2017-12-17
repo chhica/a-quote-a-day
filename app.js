@@ -7,7 +7,7 @@ app.get('/', function(req,res)   //call back in each request incoming to the ser
 											// in which app.js is located
 });
 
-var port = process.env.port || 8080;//3000 ;//port number where server listens
+var port = process.env.PORT || 8080;//3000 ;//port number where server listens
 
 //app.listen(port);
 var server = app.listen(port, function(req, res)
